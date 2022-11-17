@@ -175,10 +175,12 @@ img {
 .feature-item {
     width: calc((100%-120px)/4);
 }
-.feature-icon {
+.feature-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
-    padding: 25px 100px;
     background: var(--secondary-bg-color);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -309,12 +311,14 @@ img {
 }
 .soc-text {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .footer-sl {
     background: rgba(255, 255, 255, 0.1);
+    fill: var(--hero-color);
 }
 
 /* ----------------------PROJECTS-------------------------*/
@@ -339,7 +343,6 @@ img {
 .filter-btn:hover, .filter-btn:focus {
     color: var(--hero-color);
     background-color: var(--accent-bg-color);
-    padding: 6px 25px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .projects-subtitle {
@@ -366,5 +369,5 @@ img {
 }
 .projects-item:hover, .projects-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
 }
+
