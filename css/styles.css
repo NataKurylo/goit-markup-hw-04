@@ -89,9 +89,10 @@ body {
 }  
  .header-icon {
     margin-right: 10px;
+    fill: currentColor;
 }
 .contacts-link:hover, .contacts-link:focus {
-    fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
 /* ------------------------MAIN------------------------- */
